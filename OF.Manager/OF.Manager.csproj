@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Implementation\" />
+    <Folder Include="Interfaces\Manager\" />
+    <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Interfaces\Services\" />
     <Folder Include="Middlewares\" />
     <Folder Include="Validator\" />

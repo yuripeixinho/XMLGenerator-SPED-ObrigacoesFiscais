@@ -7,7 +7,7 @@ public static class DatabaseConfig
 {
     public static void AddDataBaseConfiguration(this IServiceCollection services, IConfiguration configuration)
     {
-        string? connectionString = configuration.GetConnectionString("TFConnection");
+        string? connectionString = configuration.GetConnectionString("OFConnection");
         Console.WriteLine($"Connection String usada: {connectionString}");
 
         services.
