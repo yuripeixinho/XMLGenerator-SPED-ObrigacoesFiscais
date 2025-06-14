@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Validator\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OF.Core.Shared\OF.Core.Shared.csproj" />
+    <ProjectReference Include="..\OF.Core\OF.Core.csproj" />
+  </ItemGroup>
+
+</Project>
